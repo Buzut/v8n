@@ -76,7 +76,7 @@ const configs = [
     minified: true,
     sourceMap: true
   }),
-  buildConfig({ format: "esm" }),
+  buildConfig({ format: "esm", transpiled: false }),
   buildConfig({ format: "system" })
 ];
 
